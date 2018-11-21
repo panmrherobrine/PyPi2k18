@@ -1,2 +1,2 @@
 # PyPi2k18
-Scripts for astropi - Ciechocinek PyPi team
+Scripts for OSTREpi - Ciechocinek PyPi team
