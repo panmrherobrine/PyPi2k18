@@ -10,7 +10,27 @@ w = (255,255,255)
 b = (0,0,0)
 r = (255,0,0)
 
-picture = [
+less15 = [
+    b, b, w, w, w, w, b, b,
+    b, w, b, b, b, b, w, b,
+    b, w, b, w, w, b, w, b,
+    b, w, b, b, b, b, w, b,
+    b, b, w, w, w, w, b, b,
+    b, b, w, w, w, w, b, b,
+    b, w, w, w, w, w, w, b,
+    b, w, w, w, w, w, w, b
+]
+to38 = [
+    b, b, w, w, w, w, b, b,
+    b, w, b, b, b, b, w, b,
+    b, w, b, w, w, b, w, b,
+    b, w, b, b, b, b, w, b,
+    b, b, w, w, w, w, b, b,
+    b, b, w, w, w, w, b, b,
+    b, w, w, w, w, w, w, b,
+    b, w, w, w, w, w, w, b
+]
+wincyj39 = [
     b, b, w, w, w, w, b, b,
     b, w, b, b, b, b, w, b,
     b, w, b, w, w, b, w, b,
@@ -21,17 +41,16 @@ picture = [
     b, w, w, w, w, w, w, b
 ]
 
-sense.show_message("GREETINGS FROM POLAND", scroll_speed=0.07, text_colour=r)
+sense.show_message("GREETINGS FROM POLAND", scroll_speed=0.07, text_colour=r) # POZDROWIENIA
 sleep(2)
-sense.set_pixels(picture)
+# sense.set_pixels(picture) 
 
 if temp <= 15:
-  sense.show_message("z")
+  sense.set_pixels(less15)
 elif temp >= 16 and temp <= 38:
-  sense.show_message("c")
+  sense.set_pixels(to38)
 elif temp >= 39:
-  sense.show_message("g")
-
+  sense.set_pixels(wincyj39)
 
 
 
