@@ -15,7 +15,7 @@ r = (255,0,0)
 
 
 
-#sense.show_message("GREETINGS FROM POLAND", scroll_speed=0.07, text_colour=r) # POZDROWIENIA
+sense.show_message("GREETINGS FROM POLAND", scroll_speed=0.07, text_colour=r) # POZDROWIENIA
 sleep(2)
 
 
@@ -32,8 +32,7 @@ if temp <= 15:
     n, z, z, z, n, n, z, z,
     z, z, z, z, z, z, z, z,
     z, z, z, z, z, z, z, z,
-    z, z, z, z, z, z, z, z,
-    z, z, z, z, z, z, z, z,
+    z, z, z, z, z, z, z, z
   ]
   sense.set_pixels(rysa)
 elif temp >= 16 and temp <= 20:
