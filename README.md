@@ -1,2 +1,3 @@
 # PyPi2k18
-Scripts for PyPi - Ciechocinek PyPi team
+Scripts for ASTROPY (https://astro-pi.org/missions/mission-zero/)- competition where teams have to do program greeting astronauts. That was easy.
+- Ciechocinek team
